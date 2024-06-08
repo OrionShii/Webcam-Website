@@ -24,3 +24,8 @@ This is a web application designed for recording videos from your webcam. It off
 3. Use the control buttons to start, pause, or stop video playback, recording, or screen sharing.
 4. Monitor the recording status and elapsed time feedback.
 5. Download recorded videos in MP4 or MKV format for further use.
+
+#### Language Used:
+- **JavaScript (JS)**: Used for frontend functionality, accessing the webcam and microphone, controlling video playback and recording, handling user interactions, and updating UI elements in real-time.
+- **HTML**: Provides the basic structure of the webpage.
+- **CSS**: Responsible for the visual presentation and layout, ensuring a visually appealing user interface.
