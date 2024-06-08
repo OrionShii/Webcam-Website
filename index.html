@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Recorder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <div class="video">
+                <video id="camerafeed" autoplay muted playsinline></video>
+                <video id="screenfeed" autoplay muted playsinline></video>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="button-85" role="button" id="playButton">Play</button>
+            <button class="button-85" role="button" id="pauseButton">Pause</button>
+            <button class="button-85" role="button" id="stopButton">Stop</button>
+            <button class="button-85" role="button" id="shareScreenButton">Share Screen</button>
+            <button class="button-85" role="button" id="stopSharingButton">Stop Sharing</button>
+            <button class="button-85" role="button" id="startRecordingButton" class="record-button">Start Recording</button>
+            <button class="button-85" role="button" id="stopRecordingButton" class="record-button">Stop Recording</button>
+            <button class="button-85" role="button" id="downloadMP4Button">Download MP4</button>
+            <button class="button-85" role="button" id="downloadMKVButton">Download MKV</button>
+        </div>
+        <div class="status" id="recordingStatus" style="display: none;"></div>
+        <div class="status time" id="recordingTime" style="display: none;">00:00</div>
+    </div>
+    <script src="webcam.js"></script>
+    <script src="sharescreen.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
